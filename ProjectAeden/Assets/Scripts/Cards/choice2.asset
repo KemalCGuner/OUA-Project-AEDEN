@@ -18,3 +18,5 @@ MonoBehaviour:
   dialogue: "UU\u0130Y"
   leftQuote: "sa\u011Fa m\u0131 gidem"
   rightQuote: "sola m\u0131 gidem"
+  leftEnergy: 0
+  rightEnergy: 1

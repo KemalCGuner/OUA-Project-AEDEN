@@ -18,3 +18,5 @@ MonoBehaviour:
   dialogue: SALAMM!!
   leftQuote: "buras\u0131 son"
   rightQuote: sondur bura
+  leftEnergy: -1
+  rightEnergy: 0

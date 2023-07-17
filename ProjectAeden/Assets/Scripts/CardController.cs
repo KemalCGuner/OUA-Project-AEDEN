@@ -37,4 +37,5 @@ public enum CardSprite
     CREW1,
     CREW2,
     CREW3,
+    CREW4,
 }

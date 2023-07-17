@@ -18,3 +18,5 @@ MonoBehaviour:
   dialogue: "G\xFCnayd\u0131nlar"
   leftQuote: selam kaptan
   rightQuote: "ho\u015F\xE7akal kaptan"
+  leftEnergy: 0
+  rightEnergy: 1

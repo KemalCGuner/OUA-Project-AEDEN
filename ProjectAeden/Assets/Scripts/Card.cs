@@ -13,16 +13,20 @@ public class Card: ScriptableObject
     public string leftQuote;
     public string rightQuote;
     //Kart Degerleri
-    public int energy;
+    public int leftEnergy;
+    public int rightEnergy;
+
 
 
     public void Left()
     {
         Debug.Log(cardName + "Swiped Left");
+        GameManager.energy += leftEnergy;
     }
 
     public void Right()
     {
         Debug.Log(cardName + "Swiped Right");
+        GameManager.energy += rightEnergy;
     }
 }

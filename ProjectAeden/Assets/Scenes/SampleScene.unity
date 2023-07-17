@@ -707,6 +707,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d9a8a4cc83a6c45927370c639626ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  energy1: {fileID: 1211307941}
+  energy2: {fileID: 1417478055}
+  energy3: {fileID: 524595143}
+  energy4: {fileID: 252985137}
+  energy5: {fileID: 1876844970}
+  energy6: {fileID: 1559420970}
+  energy7: {fileID: 1619925467}
+  energy8: {fileID: 1445384583}
 --- !u!4 &762563981
 Transform:
   m_ObjectHideFlags: 0
@@ -1807,6 +1815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b3005b5eeab1045b457f0d73a90008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minEnergy: 0
+  maxEnergy: 0
   cardGameObject: {fileID: 1457585905}
   mainCardController: {fileID: 1457585907}
   cardSpriteRenderer: {fileID: 1457585908}
@@ -1856,11 +1866,13 @@ MonoBehaviour:
   - {fileID: 307621249, guid: 6342e003efb69f04182c53a1dabfe2ea, type: 3}
   - {fileID: 223863051, guid: 6342e003efb69f04182c53a1dabfe2ea, type: 3}
   - {fileID: -2000279779, guid: 6342e003efb69f04182c53a1dabfe2ea, type: 3}
+  - {fileID: 21300000, guid: 7fd7454edd41ba8418a6d1279e3d9f15, type: 3}
   cards:
   - {fileID: 11400000, guid: dd77e1a3725ef4b4894204f068a35ec7, type: 2}
   - {fileID: 11400000, guid: aedbf247e872f814c89a36a8d5eb6a04, type: 2}
   - {fileID: 11400000, guid: 0748e037ae8370648930207199bc888e, type: 2}
   - {fileID: 11400000, guid: 881f8d7c1dea4524394969d4b4753288, type: 2}
+  - {fileID: 11400000, guid: e3964ec78592f5d499e92cecc920b57d, type: 2}
 --- !u!1 &1559420968
 GameObject:
   m_ObjectHideFlags: 0

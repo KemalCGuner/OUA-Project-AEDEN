@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 {
     //Enerji
     public static int energy;
+    public int minEnergy;
+    public int maxEnergy;
 
     //Game Objects
     public GameObject cardGameObject;
@@ -127,7 +129,7 @@ public class GameManager : MonoBehaviour
 
     public void NewCard()
     {
-        int rollDice = Random.Range(0, resourceManager.cards.Length + 1);
+        int rollDice = Random.Range(0, resourceManager.cards.Length);
         LoadCard(resourceManager.cards[rollDice]);
     }
 }
