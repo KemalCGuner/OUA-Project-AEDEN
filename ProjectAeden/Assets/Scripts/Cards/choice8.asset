@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a63aff9060753043aedec6e2369550f, type: 3}
+  m_Name: choice8
+  m_EditorClassIdentifier: 
+  cardID: 8
+  cardName: 
+  sprites: 7
+  dialogue: "Temiz su kaynaklar\u0131m\u0131z giderek azal\u0131yor!"
+  leftQuote: "Ar\u0131tma sistemlerini geli\u015Ftirin ve israf\u0131 yapmay\u0131
+    b\u0131rak\u0131n."
+  rightQuote: "Ne var yani \xE7ocuklar suda oynamayacaklar m\u0131?"
+  leftEnergy: 2
+  rightEnergy: -1

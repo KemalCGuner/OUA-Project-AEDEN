@@ -21,12 +21,12 @@ public class Card: ScriptableObject
     public void Left()
     {
         Debug.Log(cardName + "Swiped Left");
-        GameManager.energy += leftEnergy;
+        GameManager.energy += rightEnergy;
     }
 
     public void Right()
     {
         Debug.Log(cardName + "Swiped Right");
-        GameManager.energy += rightEnergy;
+        GameManager.energy += leftEnergy;
     }
 }

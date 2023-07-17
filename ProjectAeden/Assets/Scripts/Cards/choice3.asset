@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: choice3
   m_EditorClassIdentifier: 
   cardID: 3
-  cardName: choice3
-  sprites: 3
-  dialogue: SALAMM!!
-  leftQuote: "buras\u0131 son"
-  rightQuote: sondur bura
+  cardName: 
+  sprites: 2
+  dialogue: "Yeni kurulan \u015Fehirlerin enerji t\xFCketimi \xE7ok y\xFCksek!!"
+  leftQuote: "I\u015F\u0131klar\u0131 kapat\u0131n."
+  rightQuote: "\u015Eehirleri k\xFC\xE7\xFClmeye gidin."
   leftEnergy: -1
-  rightEnergy: 0
+  rightEnergy: -1

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: choice2
   m_EditorClassIdentifier: 
   cardID: 2
-  cardName: choice2
-  sprites: 2
-  dialogue: "UU\u0130Y"
-  leftQuote: "sa\u011Fa m\u0131 gidem"
-  rightQuote: "sola m\u0131 gidem"
-  leftEnergy: 0
-  rightEnergy: 1
+  cardName: 
+  sprites: 1
+  dialogue: Gezegende yeterli yiyecek yok.
+  leftQuote: "\xDCr\xFCnlerde fabrikasyona gidin."
+  rightQuote: "Tar\u0131msal alanlar\u0131 b\xFCy\xFCt\xFCn"
+  leftEnergy: -2
+  rightEnergy: -1

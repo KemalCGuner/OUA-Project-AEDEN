@@ -33,9 +33,15 @@ public class CardController : MonoBehaviour
 
 public enum CardSprite
 {
-    CREW0,
     CREW1,
     CREW2,
     CREW3,
     CREW4,
+    CREW5,
+    CREW6,
+    CREW7,
+    CREW8,
+    CREW9,
+    CREW10,
+    CREW11,
 }

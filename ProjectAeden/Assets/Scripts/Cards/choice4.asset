@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: choice4
   m_EditorClassIdentifier: 
   cardID: 4
-  cardName: Cerenum
-  sprites: 4
-  dialogue: "Bebi\u015F\u015F"
-  leftQuote: "sa\u011F"
-  rightQuote: sol -1
-  leftEnergy: 3
-  rightEnergy: 3
+  cardName: 
+  sprites: 3
+  dialogue: "Yeni gezegenimizin n\xFCfusu \xE7ok h\u0131zl\u0131 art\u0131yor."
+  leftQuote: "Kendi haline b\u0131rak\u0131n."
+  rightQuote: "D\xFCzenli bir kontrol plan\u0131 yap\u0131n."
+  leftEnergy: 0
+  rightEnergy: 0

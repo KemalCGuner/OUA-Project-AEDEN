@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a63aff9060753043aedec6e2369550f, type: 3}
+  m_Name: choice5
+  m_EditorClassIdentifier: 
+  cardID: 5
+  cardName: 
+  sprites: 4
+  dialogue: "2. kolonimizi sel ald\u0131. \u0130nsanlar\u0131m\u0131z yard\u0131m
+    bekliyor!"
+  leftQuote: "Ee ? yard\u0131m edin."
+  rightQuote: "H\u0131zl\u0131 yard\u0131m g\xF6nderin. Sonra sel yata\u011F\u0131n\u0131n
+    \xFCzerine in\u015Fa yasa\u011F\u0131 getirin."
+  leftEnergy: 0
+  rightEnergy: 1

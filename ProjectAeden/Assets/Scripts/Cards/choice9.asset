@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a63aff9060753043aedec6e2369550f, type: 3}
+  m_Name: choice9
+  m_EditorClassIdentifier: 
+  cardID: 9
+  cardName: 
+  sprites: 8
+  dialogue: "\xD6\u011Frencilerimiz eski d\xFCnyan\u0131n derslerini burada ge\xE7erli
+    olmad\u0131\u011F\u0131ndan \u015Fikayet\xE7i!"
+  leftQuote: "Olsun fazla bilmek k\xF6t\xFC de\u011Fildir."
+  rightQuote: "Yeni bir m\xFCfredat d\xFCzenleyelim."
+  leftEnergy: 0
+  rightEnergy: 2

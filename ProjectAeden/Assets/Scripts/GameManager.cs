@@ -11,14 +11,16 @@ public class GameManager : MonoBehaviour
 {
     //Enerji
     public static int energy;
-    public int minEnergy;
-    public int maxEnergy;
+    public int minEnergy = 0;
+    public int maxEnergy = 8;
 
     //Game Objects
     public GameObject cardGameObject;
     public CardController mainCardController;
     public SpriteRenderer cardSpriteRenderer;
     public ResourceManager resourceManager;
+    public GameObject gameScene;
+    
     //Tweaking Variables
     public float fMovingSpeed;
     public float fSideMargin;
@@ -30,11 +32,14 @@ public class GameManager : MonoBehaviour
     int rollDice;
     Vector3 pos;
     public float ftransparency = 0.7f;
+    public int endgameNumber = 0;
     //UI
     public TMP_Text display;
     public TMP_Text actionQuote;
     public TMP_Text characterDialogue;
     public SpriteRenderer actionBackground;
+    public TMP_Text endGame;
+    public TMP_Text winGame;
     //Card Variables
     private string leftQuote;
     private string rightQuote;
@@ -45,6 +50,10 @@ public class GameManager : MonoBehaviour
   
     void Start()
     {
+        gameScene.SetActive(true);
+        winGame.enabled = false;
+        endGame.enabled = false;
+        energy = 4;
         LoadCard(testCard);
     }
 
@@ -68,7 +77,6 @@ public class GameManager : MonoBehaviour
         //Dialogue text Handling
         textColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, 1);
         actionBackgroundColor.a = Mathf.Min((Mathf.Abs(cardGameObject.transform.position.x) - fSideMargin) / divideValue, ftransparency);
-
         if (cardGameObject.transform.position.x > fSideTrigger)
         {
             if (Input.GetMouseButtonUp(0))
@@ -112,7 +120,30 @@ public class GameManager : MonoBehaviour
             cardGameObject.transform.position = Vector2.MoveTowards(cardGameObject.transform.position, new Vector2(0, 1), fMovingSpeed);
         }
 
-        display.text = "" + textColor.a;
+        //Game Ending
+
+        if (energy <= 0)
+        {
+            gameScene.SetActive(false);
+            endGame.enabled = true;
+            endGame.text = "Basarisiz oldun";
+
+        }
+        else if( energy >= 8)
+        {
+            gameScene.SetActive(false);
+            winGame.enabled = true;
+            winGame.text = "Tebrikler        " + (energy - 1) + "  Enerji ile harika bir gezegen oldu.";
+
+        }
+        else if (endgameNumber == 10)
+        {
+            gameScene.SetActive(false);
+            winGame.enabled = true;
+            winGame.text = "Tebrikler        " + (energy -1)  + "  Enerji ile harika bir gezegen oldu.";
+        }
+
+        
         
     }
 
@@ -131,5 +162,7 @@ public class GameManager : MonoBehaviour
     {
         int rollDice = Random.Range(0, resourceManager.cards.Length);
         LoadCard(resourceManager.cards[rollDice]);
+        endgameNumber++;
+        display.text = "" + endgameNumber + "    " + "" + energy;
     }
 }
